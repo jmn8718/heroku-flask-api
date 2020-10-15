@@ -34,3 +34,4 @@ You have to configure heroku to use a container: `heroku stack:set container`
 ## References
 
 - https://devcenter.heroku.com/articles/build-docker-images-heroku-yml
+- https://github.com/flask-restful/flask-restful
