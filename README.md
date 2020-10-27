@@ -31,6 +31,10 @@ You have to configure heroku to use a container: `heroku stack:set container`
 1. `heroku container:push web --app XX`
 2. `heroku container:release web --app XX` 
 
+### Run tests
+
+`python -m unittest --buffer`
+
 ## References
 
 - https://devcenter.heroku.com/articles/build-docker-images-heroku-yml
